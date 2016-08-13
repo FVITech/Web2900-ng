@@ -5,7 +5,7 @@ In this course, students learn the in-depth workings of a modern MV* front end f
 Students will be presented with 10-15min formative assessments every single day in order to reinforce their recall of the angular concepts.
 
 ##Summary
-
+This is a cool Summary.
 
 ##Homework
 
