@@ -16,7 +16,7 @@ Angular basics, explaining what problem it solves and key terms: module/app, con
 Do a formative assessment based on terminology and an exercise involving a really simple module with variables bound to the scope and using expressions to dynamically populate a page based on the value of expressions.
 Start 50 examples demos and exercises. Example 1 - 10. Demo progression from plain HTML files, through plain js, jquery, backbone and angular. Purpose is to demonstrate what angular is doing behind the scenes for us. Students are asked to create basic examples based on the exercises.
 ##Day 2
-Work through examples 11 - 20.
+Work through lessons 11 - 20.
  - Intialize model using Angular controller
  - Changing scope values asynchronously (use of .apply()).
  - Looping over lists using ng-repeat. Built in directives
@@ -27,10 +27,59 @@ Work through examples 11 - 20.
  - Building a table 
  - Fetching JSON
 ##Day 3
-Formative assessment on directive syntax, angular terminology and service/dependency injection syntax. We need to get them to memorize the directive object: restrict, template/templateUrl, scope, link. After that, create another directive for a button which will reload data from the server (the endpoint should deliver something randomized). A discussion on passing variables and functions from the controller $scope to the isolated scopes will be necessary. After the break, discuss ng-repeat directive and have them implement something like a restaurant menu where the menu items are brought in from the controller $scope. This project should make use of the ng-src directive as well.
+Work through lessons 21 - 30.
+- Dependency Injection syntax & minification issues
+- Adding search using angular filters
+- Sorting in ng-repeat using orderBy
+- Interactive sorting of table columns
+- Reverse sorting
+- Adding images (country flag). Use of src vs ng-src.
+- Add capital and GDP data
 ##Day 4
-Formative assessment on directive syntax, expressions, service/dependency injection syntax, filters, and angular terminology. Also, create a service to asynchronously load the food items for the restaurant page from a restful endpoint we provide. Discuss how hardcoding an object might be a good way to start a front end since a REST service can be incorporated so neatly. Then give students a started html template and ask them to hit a restful endpoint and load data about clothing items. Use a service to load the data, inject the service into the main controller, use it to update the $scope, create a directive for each clothing article, and finally use ng-repeat to display all clothing articles from the server.
+Lessons 31 - 40
+- Using filters: formatting currency
+- Using angular filters in templates
+- Preparing for routing
+- Using ngRoute, the path to ui-router
+- Moving templates for routes into separate files
+- Use of parameters in routes
+- Using links with routes to navigate between views
+- Looking up details for a single country
+- Surfacing data on the country details page
+- Creating a service(Factory) to load data 
 ##Day 5
-Formative assessment on directive syntax, expressions, service/dependency injection syntax, filters, and angular terminology. Then introduce Angular Routing and the routeprovider and routeparams services. Students will go through a guided project to implement an angular SPA with at least 2 view templates. Then they will be shown a working version of the sweets complete site, and they will finally be asked to convert the sweets complete site into an angular SPA using routing.
+Lessons 41 - 50
+- Extract country details query into a factory
+- Caching in angular
+- Caching data in a factory
+- Custom filters: create a URI encoder
+- RESTful services in angular
+- Introduction to custom directives
+- Custom directives and controllers
+- Fetching data withing custom directives
+- Extracting controllers into separate module
+- Extracting factories and directives to separate modules using method chaining.
 ##Day 6
-Formative assessment on directive syntax, expressions, service/dependency injection syntax, filters, and angular terminology. Then modify sweetscomplete site so that the candy items asynchronously through a service.
+Cat phone tutorial - Emphasize modular approach to building angular 1.5.x angular applications
+-- Quiz covering Days 1 - 5
+##Day 7
+Cat phone tutorial - Emphasize modular approach to building angular 1.5.x angular applications
+##Day 8
+Build a Tabs Directive project
+https://thinkster.io/angular-tabs-directive
+##Day 9
+Build an angular project from scratch. Students are asked to choose a project and create it from scratch using their knowledge of angular. The professor offers guidance and support, but it is the student that drives the project. If the student can't come up with an idea, the professor can suggest ideas to the student. As the student progresses in the class, the student is expected to add to the project. Project is due final day of class.
+##Day 10
+Creating a SPA from a set of HTML pages. The sweets complete application is used to create a SPA. The technique to do so is demonstrated taught to the students, and then the students are challenged to do the same on another set of HTML pages of the students choosing.
+- Quiz covering Days 6 - 10
+##Day 11
+Quiz covering Days 6 - 10
+Authentication and authorization with angular
+https://thinkster.io/angularjs-jwt-auth
+http://jasonwatmore.com/post/2016/04/05/angularjs-jwt-authentication-example-tutorial
+http://brewhouse.io/blog/2014/12/09/authentication-made-simple-in-single-page-angularjs-applications.html
+##Day 12
+Authentication and authorization completed
+- Final exam comprehensive
+- Final project due
+
