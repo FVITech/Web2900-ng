@@ -12,10 +12,20 @@ Students will be presented with 10-15min formative assessments every single day 
 
 #Lesson Plan
 ##Day 1
-Angular basics, explaining what problem it solves and key terms: module/app, controller, scope, service, directive.
+Angular basics, explaining what problem it solves and key terms: module/app, controller, scope, service, directive. 
 Do a formative assessment based on terminology and an exercise involving a really simple module with variables bound to the scope and using expressions to dynamically populate a page based on the value of expressions.
+Start 50 examples demos and exercises. Example 1 - 10. Demo progression from plain HTML files, through plain js, jquery, backbone and angular. Purpose is to demonstrate what angular is doing behind the scenes for us. Students are asked to create basic examples based on the exercises.
 ##Day 2
-Another formative assessment on terminology, students will create a service under instructor guidance. The service will make a restful call and be injected into the controller to populate the controller scope. Build some kind of application analogous to the quote of the day app, using view expressions and filters (uppercase). After the break, introduce element directives. Refactor the quote of the day app so it uses a directive for the quote display.
+Work through examples 11 - 20.
+ - Intialize model using Angular controller
+ - Changing scope values asynchronously (use of .apply()).
+ - Looping over lists using ng-repeat. Built in directives
+ - Basic use of forms and ng-submit
+ - Clearing input boxes using data binding
+ - Use of ng-click
+ - Object enumeration - countries and their populations
+ - Building a table 
+ - Fetching JSON
 ##Day 3
 Formative assessment on directive syntax, angular terminology and service/dependency injection syntax. We need to get them to memorize the directive object: restrict, template/templateUrl, scope, link. After that, create another directive for a button which will reload data from the server (the endpoint should deliver something randomized). A discussion on passing variables and functions from the controller $scope to the isolated scopes will be necessary. After the break, discuss ng-repeat directive and have them implement something like a restaurant menu where the menu items are brought in from the controller $scope. This project should make use of the ng-src directive as well.
 ##Day 4
