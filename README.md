@@ -1,21 +1,51 @@
-# Web2900 - Modern MV* Front End Frameworks (angular)
+# Web2900 - Modern MV* Front End Frameworks (React.js)
 
-In this course, students learn the in-depth workings of a modern MV* front end framework (AngularJS or React) and the MV* design pattern in general. They will develop two applications of their own using a modern front-end framework.
+In this course, students learn the in-depth workings of a modern MV* front end framework (React) and the MV* design pattern in general. They will develop two applications of their own using a modern front-end framework.
 
-Students will be presented with 10-15min formative assessments every single day in order to reinforce their recall of the angular concepts.
+Students will be presented with 10-15 min formative assessments every single day in order to reinforce their recall of React.js concepts.
 
 ##Summary
-
 
 ##Homework
 
 
 #Lesson Plan
 ##Day 1
-Angular basics, explaining what problem it solves and key terms: module/app, controller, scope, service, directive.
-Do a formative assessment based on terminology and an exercise involving a really simple module with variables bound to the scope and using expressions to dynamically populate a page based on the value of expressions.
-Start 50 examples demos and exercises. Example 1 - 10. Demo progression from plain HTML files, through plain js, jquery, backbone and angular. Purpose is to demonstrate what angular is doing behind the scenes for us. Students are asked to create basic examples based on the exercises.
+Introduction to React, and Front End Frameworks and Libraries. Intro to React basics, explaining what problem it solves and key terms. What are components, and how do you think in components.
 
+ Demo progression from plain HTML files, through plain js, jquery, backbone, angular to a basic "Hello World" React component. Purpose is to demonstrate what makes React so powerful, and to teach the most bare bone React application possible. Students are asked to create basic examples based on the exercises. This will be done with no tooling set-up, using CDN and single HTML page.
+
+ - npm i -g yarn
+ - yarn init -y
+ - yarn add react
+ - yarn add react-dom
+ ```
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <title>First React Component</title>
+ </head>
+ <body>
+   <div id="app"></div>
+   <script src="node_modules/react/dist/react.js"></script>
+   <script src="node_modules/react-dom/dist/react-dom.js"></script>
+   <script>
+     var div = React.DOM.div
+     var h1 = React.DOM.h1
+
+     var MyFirstComponent = (
+       div(null,
+         h1(null, 'This is my first component!')
+       )
+     )
+
+     ReactDOM.render(MyFirstComponent, document.getElementById('app'))
+   </script>
+ </body>
+ </html>
+ ```
+- Explain createElement(), virtual DOM and how React does its magic.
 
 ##Day 2
 Work through lessons 11 - 20.
