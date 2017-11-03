@@ -48,73 +48,59 @@ Introduction to React, and Front End Frameworks and Libraries. Intro to React ba
 - Explain createElement(), virtual DOM and how React does its magic.
 
 ##Day 2
-Work through lessons 11 - 20.
- - Intialize model using Angular controller
- - Changing scope values asynchronously (use of .apply()).
- - Looping over lists using ng-repeat. Built in directives
- - Basic use of forms and ng-submit
- - Clearing input boxes using data binding
- - Use of ng-click
- - Object enumeration - countries and their populations
- - Building a table
- - Fetching JSON
-
+1. create-react-app overview
+2. JSX
+3. Component Composition
+4. Tweeter example
+5. Exercises
 
 ##Day 3
-Work through lessons 21 - 30.
-- Dependency Injection syntax & minification issues
-- Adding search using angular filters
-- Sorting in ng-repeat using orderBy
-- Interactive sorting of table columns
-- Reverse sorting
-- Adding images (country flag). Use of src vs ng-src.
-- Add capital and GDP data
+1. Props
+2. Communicating with parent components
+3. PropTypes
+4. Tweeter example with PropTypes
+5. Exercises
 
 
 ##Day 4
-Lessons 31 - 40
-- Using filters: formatting currency
-- Using angular filters in templates
-- Preparing for routing
-- Using ngRoute, the path to ui-router
-- Moving templates for routes into separate files
-- Use of parameters in routes
-- Using links with routes to navigate between views
-- Looking up details for a single country
-- Surfacing data on the country details page
-- Creating a service(Factory) to load data
+1. Children
+2. Children types
+3. PropTypes for children
+4. Comparison with Transclusion in Angular
+5. A more elaborate example
+6. Exercises
 
 
 ##Day 5
-Lessons 41 - 50
-- Extract country details query into a factory
-- Caching in angular
-- Caching data in a factory
-- Custom filters: create a URI encoder
-- RESTful services in angular
-- Introduction to custom directives
-- Custom directives and controllers
-- Fetching data withing custom directives
-- Extracting controllers into separate module
-- Extracting factories and directives to separate modules using method chaining.
-
+1. Key props
+2. Github example
+3. Exercises
 
 ##Day 6
-Cat phone tutorial - Emphasize modular approach to building angular 1.5.x angular applications
--- Quiz covering Days 1 - 5
-
+1. State
+2. Counter example
+3. setState as Asynchronous.
+4. Different forms of setState
+5. Shallow vs Deep Merge
+6. Handling events
+7. What to put in state
 
 ##Day 7
-PhoneCat tutorial - Emphasize modular approach to building angular 1.5.x angular applications
-
+1. Thinking declaratively
+2. Where to keep state
+3. Component types
+4. Example - Shopping site
+5. Exercises
 
 ##Day 8
-Build a Tabs Directive project
-https://thinkster.io/angular-tabs-directive
-
+1. Controlled vs Uncontrolled inputs
+2. Component lifecycle
+3. Example shopping site - completion
+4. Exercises
+5. Mid-term
 
 ##Day 9
-Build an angular project from scratch. Students are asked to choose a project and create it from scratch using their knowledge of angular. The professor offers guidance and support, but it is the student that drives the project. If the student can't come up with an idea, the professor can suggest ideas to the student. As the student progresses in the class, the student is expected to add to the project. Project is due final day of class.
+
 
 
 
